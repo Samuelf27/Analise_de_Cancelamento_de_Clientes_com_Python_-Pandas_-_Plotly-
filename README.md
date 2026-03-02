@@ -1,10 +1,16 @@
-📌 Sobre o Projeto
+Este projeto foi desenvolvido durante a Jornada Python e tem como objetivo analisar o cancelamento de clientes de uma empresa fictícia utilizando Python.
 
-Este projeto foi desenvolvido durante a Jornada Python e tem como objetivo automatizar o cadastro de produtos em um sistema web utilizando Python.
+O projeto faz uma análise completa da base de dados, realizando:
 
-A automação simula ações humanas no computador, controlando mouse e teclado por meio da biblioteca PyAutoGUI, realizando o login no sistema e cadastrando automaticamente todos os produtos a partir de uma base de dados em formato .csv.
+Tratamento de dados (remoção de valores nulos, padronização)
 
-O projeto resolve um problema real: evitar tarefas repetitivas e manuais, aumentando a produtividade e reduzindo erros.
+Análise exploratória com Pandas
+
+Visualização gráfica com Plotly para identificar padrões de cancelamento
+
+Agrupamentos e médias para entender comportamento de diferentes planos e perfis de clientes
+
+A análise permitiu reduzir o percentual de cancelamento de 56,7% para 18,4%, mostrando insights estratégicos sobre contratos, idade, frequência de uso e interações com o call center.
 
 ⚙️ Tecnologias Utilizadas
 
@@ -12,48 +18,24 @@ Python
 
 Pandas
 
-PyAutoGUI
+Plotly
 
-Time
+Jupyter Notebook (VSCode)
 
-🔄 Funcionalidades
+🎯 Objetivo do Projeto
 
-✔️ Abertura automática do navegador
+Demonstrar como a análise de dados pode identificar problemas e propor soluções, usando Python para:
 
-✔️ Login automático no sistema
+Entender padrões de cancelamento
 
-✔️ Leitura da base de dados (produtos.csv)
+Avaliar diferentes contratos e perfis de clientes
 
-✔️ Cadastro automático de mais de 200 produtos
+Criar gráficos interativos para suportar decisões estratégicas
 
-✔️ Tratamento de campo opcional (observação)
+💡 Aplicações Práticas
 
-✔️ Uso de estrutura de repetição (for) e condição (if)
+Empresas podem identificar clientes com risco de cancelamento
 
-🎯 Objetivo
+Auxiliar em decisões estratégicas para retenção de clientes
 
-Demonstrar como automatizar processos repetitivos utilizando Python, aplicando conceitos como:
-
-Manipulação de dados com Pandas
-
-Automação com PyAutoGUI
-
-Estruturas de repetição
-
-Estruturas condicionais
-
-Boas práticas de organização de código
-
-💡 Aplicação Prática
-
-Esse tipo de automação pode ser utilizado para:
-
-Cadastro de produtos em sistemas
-
-Preenchimento de formulários
-
-Lançamentos em ERP
-
-Atualizações de sistemas internos
-
-Tarefas administrativas repetitivas
+Visualização e interpretação de grandes bases de dados
