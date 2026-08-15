@@ -10,7 +10,15 @@ Visualização gráfica com Plotly para identificar padrões de cancelamento
 
 Agrupamentos e médias para entender comportamento de diferentes planos e perfis de clientes
 
-Três fatores concentram os cancelamentos na base: contrato mensal, mais de quatro ligações ao call center e atraso acima de vinte dias. Isolando esses grupos, o percentual de cancelamento do conjunto cai de 56,7% para 18,4% — é um resultado do exercício sobre dados fictícios, não uma redução aplicada a uma operação real.
+Na base, a taxa de cancelamento é de **56,8%**, e três recortes concentram quase todo o problema:
+
+| Recorte | Clientes | Cancelamento |
+|---|---:|---:|
+| Contrato mensal | 9.884 | **100,0%** |
+| Mais de 4 ligações ao call center | 16.283 | **99,0%** |
+| Atraso acima de 20 dias | 9.646 | **100,0%** |
+
+Excluindo os três grupos, o cancelamento do restante cai para **18,4%**. Vale a ressalva: esses grupos somam **47,5% da base** — o número menor vem de retirar quase metade dos clientes, não de uma retenção aplicada. É o resultado do exercício sobre dados fictícios, e a leitura útil é onde o problema se concentra, não a taxa final.
 
 ⚙️ Tecnologias Utilizadas
 
