@@ -10,7 +10,7 @@ Visualização gráfica com Plotly para identificar padrões de cancelamento
 
 Agrupamentos e médias para entender comportamento de diferentes planos e perfis de clientes
 
-A análise permitiu reduzir o percentual de cancelamento de 56,7% para 18,4%, mostrando insights estratégicos sobre contratos, idade, frequência de uso e interações com o call center.
+Três fatores concentram os cancelamentos na base: contrato mensal, mais de quatro ligações ao call center e atraso acima de vinte dias. Isolando esses grupos, o percentual de cancelamento do conjunto cai de 56,7% para 18,4% — é um resultado do exercício sobre dados fictícios, não uma redução aplicada a uma operação real.
 
 ⚙️ Tecnologias Utilizadas
 
