@@ -1,0 +1,41 @@
+# Segredos — nunca versionar.
+# Chave de API commitada continua acessivel no historico do Git mesmo depois
+# de removida do arquivo, entao a barreira precisa ser esta.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+
+# Bytecode e cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Empacotamento
+build/
+dist/
+*.egg-info/
+
+# Ferramentas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
